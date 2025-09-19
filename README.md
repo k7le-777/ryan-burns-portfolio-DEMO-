@@ -2,7 +2,7 @@
 -   This is my responsive personal portfolio website built with semantic HTML and CSS.  
 -   It showcases my bio, projects, and contact information, and is deployed on GitHub Pages.
 
-## Live Demo
+## Live Link
 link...
 
 ## Features
