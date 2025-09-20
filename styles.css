@@ -46,6 +46,10 @@ nav {
     gap: 4.5rem;
     list-style: none;
 }
+.skills-list span {
+  display: block;
+  text-align: center;
+}
 .skilss-list li {
     display: flex;
     flex-direction: column;
