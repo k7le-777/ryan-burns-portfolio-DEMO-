@@ -4,6 +4,7 @@
     color: inherit;
     margin: 0;
     padding: 0;
+    font-family: "Courier New", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a:hover {
     color: #0077cc;
@@ -15,7 +16,6 @@ nav {
     align-items: center;
     padding: 1rem 2rem;
     background-color: #f0f0f0;
-    flex-direction: column;
 }
 
 .nav-links {
@@ -30,11 +30,19 @@ nav {
   font-weight: 500;
   padding: 1.5rem 0.5rem; 
 }
+.brand {
+    text-align: center;
+    ;
+}
+.brand p {
+    margin-top: 5px;
+}
+
 .bio-summary {
-  font-weight: 500;         /* semi-bold */
-  font-size: 1rem;          /* smaller than h1 */
-  color: #0077cc;           /* accent color */
-  margin: 0.2rem 0 1rem 0;  /* top & bottom spacing */
+  font-weight: 500;         
+  font-size: 1rem;          
+  color: #4c8639;         
+  margin: 0.2rem 0 1rem 0;  
   text-align: center;  
 }
 
