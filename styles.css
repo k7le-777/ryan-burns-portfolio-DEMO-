@@ -9,15 +9,29 @@ a:hover {
 }
 /* header */
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-left: ;
+    background-color: #f0f0f0;
 }
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
+   
+
+
+/* about */
 .Ryan-img {
     width: auto;
     height: 150px;
 }
-
-
-/* about */
 
 
 
