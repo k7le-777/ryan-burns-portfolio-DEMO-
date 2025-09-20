@@ -1,4 +1,5 @@
 /* universal */
+
 * {
     text-decoration: none;
     color: inherit;
@@ -10,12 +11,16 @@ a:hover {
     color: #0077cc;
     text-decoration: underline;
 }
+
+
 /* header */
+
 nav {
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
     background-color: #f0f0f0;
+    box-shadow: 5px 5px 19px rgba(30, 238, 89, 0.15);
 }
 
 .nav-links {
