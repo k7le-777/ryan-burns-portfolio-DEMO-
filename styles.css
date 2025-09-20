@@ -2,6 +2,7 @@
 * {
     text-decoration: none;
     color: inherit;
+    margin: 0;
 }
 a:hover {
     color: #0077cc;
@@ -10,20 +11,24 @@ a:hover {
 /* header */
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    margin-left: ;
     background-color: #f0f0f0;
 }
 
 .nav-links {
     display: flex;
-    justify-content: center;
-    gap: 3.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    flex: 1;
+    padding-left: 3rem;
 } 
+.nav-links a {
+  flex: 1;
+  text-align: center;       
+  color: #333;
+  font-weight: 500;
+  padding: 1.5rem 0.5rem; 
+}
+
    
 
 
