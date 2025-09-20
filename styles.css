@@ -15,6 +15,7 @@ nav {
     align-items: center;
     padding: 1rem 2rem;
     background-color: #f0f0f0;
+    flex-direction: column;
 }
 
 .nav-links {
@@ -29,8 +30,13 @@ nav {
   font-weight: 500;
   padding: 1.5rem 0.5rem; 
 }
-
-   
+.bio-summary {
+  font-weight: 500;         /* semi-bold */
+  font-size: 1rem;          /* smaller than h1 */
+  color: #0077cc;           /* accent color */
+  margin: 0.2rem 0 1rem 0;  /* top & bottom spacing */
+  text-align: center;  
+}
 
 
 /* about */
