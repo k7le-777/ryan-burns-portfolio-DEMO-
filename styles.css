@@ -34,13 +34,8 @@ nav {
 
 
 /* about */
- {
-    display: flexbox;
 
-    align-items: center;
-}
-
-.Ryan-img {
+#Ryan-img {
     width: auto;
     height: 350px;
     border-radius: 3%;
@@ -77,7 +72,9 @@ nav {
     gap: 4rem;
     align-items: flex-start;
 }
-
+#about h2 {
+    text-align: center;
+}
 
 
 /* Projects */
