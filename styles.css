@@ -36,6 +36,7 @@ nav {
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background-color: #b8b8a8;
+    min-width: min-content;
 }
 
 .nav-links {
@@ -59,7 +60,6 @@ nav {
     background-color: #445e3c7d;
     border-radius: 3px;
     padding: 0.2rem 0.5rem;
-    width: rem
 }
 .brand p {
     margin-top: 9px;
@@ -106,6 +106,7 @@ nav {
 .skills-list span {
   display: block;
   text-align: center;
+  margin-top: 1rem;
 }
 .skills-list li {
     display: flex;
@@ -211,7 +212,7 @@ form {
 }
 .direct-contact h2 {
     margin-bottom: 1.5rem;
-    
+
 }
 .direct-contact ul {
     display: block;
