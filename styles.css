@@ -27,26 +27,38 @@ a:hover {
 body {
    background-color: #dbdbd3;
 }
+main {
+    margin-top: 100px;
+}
+header {
+    width: 100%;
+}
 
 /* header */
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 2rem;
-    background-color: #b8b8a8;
-    min-width: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: #b8b8a8;
+  position: fixed;
+  top: 0;
+
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .nav-links {
     display: flex;
-    gap: 2.3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 } 
 .nav-links a {
-  flex: 1;
+  flex: none;
   text-align: center;       
   font-weight: 700;
   padding: 0.5rem 0.5rem; 
@@ -73,7 +85,6 @@ nav {
   margin: 0.2rem 0 1rem 0;  
   text-align: center;
 }
-
 
 /* about */
 
@@ -233,4 +244,7 @@ form {
 #footer {
     margin: 0;
     padding: 1rem 0;
+}
+footer p{
+    font-size: 1rem;
 }
