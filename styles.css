@@ -80,11 +80,11 @@ nav {
 #Ryan-img {
     width: 370px;
     height: 350px;
-    border-radius: 3%;
+    border-radius: 9px;
     margin-top: 3rem;
     margin-left: 1px;
     border: 7px solid rgb(58, 65, 55);
-    box-shadow: 9px 9px 15px rgba(184, 234, 108, 0.232);
+    box-shadow: 7px 7px 5px 5px rgba(71, 73, 67, 0.367);
 
 }
 .skills-list {
@@ -92,6 +92,10 @@ nav {
     flex-wrap: wrap;
     gap: 50px;
     list-style: none;
+    box-shadow: #3a7b2458 4px 4px 15px 15px;
+    border: #50953a 3px transparent;
+    padding: 1rem;
+    border-radius: 10px;
 }
 .skills-box {
     min-width: 230px;
@@ -145,7 +149,6 @@ nav {
 .view-project {
     width: 100%;
     text-align: center;
-
 }
 .view-project a {
     display: inline-block;
@@ -162,14 +165,12 @@ figcaption {
     padding: 0.5rem 1rem;
     color: #333;
     font-weight: 500;
-
 }
 #projects p {
     width: 45%;
     text-align: center;
     margin: 3rem auto 0.5rem;;
 }
-
 .project-img{
   width: 65%;
   max-width: 1200px; 
@@ -179,18 +180,12 @@ figcaption {
   border-width: 700px;
   border-radius: 10px;
 }
-#project-1 img{
-    border-radius: 2%;
-}
-
-
 .project {
     margin-top: 4rem;
 }
 figcaption {
     font-style: italic;
 }
-
 
 
 /* Contact */
