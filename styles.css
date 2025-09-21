@@ -187,7 +187,9 @@ figcaption {
 .project {
     margin-top: 4rem;
 }
-
+figcaption {
+    font-style: italic;
+}
 
 
 
