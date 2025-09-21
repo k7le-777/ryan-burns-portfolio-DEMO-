@@ -123,16 +123,23 @@ nav {
 
 /* Projects */
 
-#projects h3, #projects p, .view-project {
+#projects h3, #projects p{
     text-align: center;
     margin-bottom: 1rem;
     line-height: 30px;
 }
+.view-project {
+    width: 100%;
+    text-align: center;
+
+}
 .view-project a {
     display: inline-block;
-    padding: 0.5rem 1rem;
     background-color: #84b73061;
     font-weight: 550;
+    margin-top: 1.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
 figcaption {
     display: block; 
@@ -146,7 +153,7 @@ figcaption {
 #projects p {
     width: 45%;
     text-align: center;
-    margin: 3rem auto 3rem;;
+    margin: 3rem auto 0.5rem;;
 }
 
 .project-img-1, .project-img-2, .project-img-3 {
