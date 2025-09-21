@@ -125,7 +125,8 @@ nav {
 
 #projects h3, #projects p, .view-project {
     text-align: center;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    line-height: 30px;
 }
 .view-project a {
     display: inline-block;
