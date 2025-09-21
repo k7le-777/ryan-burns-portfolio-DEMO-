@@ -106,10 +106,12 @@ nav {
 }
 .about-container {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 1rem;
+    padding: 0 1rem;
 }
 .worked-on {
     align-self: center;
