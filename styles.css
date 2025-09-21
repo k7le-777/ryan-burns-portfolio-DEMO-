@@ -113,7 +113,15 @@ nav {
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
-
+#projects h3, #projects p, #projects a {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#projects p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 1rem;;
+}
 
 .project-img-1 {
   width: 70%;
