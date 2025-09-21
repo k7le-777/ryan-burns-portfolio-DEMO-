@@ -68,7 +68,10 @@ nav {
     flex-wrap: wrap;
     gap: 50px;
     list-style: none;
-
+}
+.skills-box {
+    min-width: 220px;
+    overflow-x: auto;
 }
 .skills-box h2 {
     text-align: center;
@@ -91,8 +94,10 @@ nav {
 }
 .about-container {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #about h2 {
     text-align: center;
