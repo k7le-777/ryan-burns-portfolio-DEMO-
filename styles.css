@@ -64,10 +64,11 @@ nav {
 /* about */
 
 #Ryan-img {
-    width: auto;
+    width: 370px;
     height: 350px;
     border-radius: 3%;
     margin-top: 3rem;
+    margin-left: 1px;
 
 }
 .skills-list {
@@ -77,8 +78,7 @@ nav {
     list-style: none;
 }
 .skills-box {
-    min-width: 220px;
-    overflow-x: auto;
+    min-width: 230px;
 }
 .skills-box h2 {
     text-align: center;
