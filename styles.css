@@ -209,3 +209,12 @@ form {
 
 
 /* Footer */
+
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    margin-bottom: 1rem;
+
+}
