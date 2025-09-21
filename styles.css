@@ -97,13 +97,21 @@ nav {
 #about h2 {
     text-align: center;
 }
+.about-me-bio {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    padding: 1rem 3rem;
+}
+#about h2 {
+    margin-top: 1rem;
+}
 
 
 /* Projects */
 
 
 
-/* contact */
+/* Contact */
 
 
-/* footer */
+/* Footer */
