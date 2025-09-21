@@ -28,6 +28,7 @@ a:hover {
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0.5rem 2rem;
     background-color: #d3d3c4;
     box-shadow: 5px 5px 19px rgba(30, 238, 89, 0.15);
@@ -35,8 +36,9 @@ nav {
 
 .nav-links {
     display: flex;
-    flex: 1;
-    padding-left: 3rem;
+    gap: 2.3rem;
+    justify-content: center;
+    align-items: center;
 } 
 .nav-links a {
   flex: 1;
@@ -44,7 +46,7 @@ nav {
   color: #333;
   font-weight: 700;
   font-size: 1.1rem;
-  padding: 1.5rem 0.5rem; 
+  padding: 0.5rem 0.5rem; 
 }
 .brand {
     text-align: center;
@@ -175,7 +177,7 @@ form {
 #form-submit-button {
     width: 100px;
     height: 40px;
-    background-color: #69bc4d99;
+    background-color: #69bc4d50;
     border: none;
     border-radius: 5px;
     font-weight: 600;
