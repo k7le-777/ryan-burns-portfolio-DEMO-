@@ -205,7 +205,18 @@ form {
     font-weight: 600;
     cursor: pointer;
 }
-
+.direct-contact {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.direct-contact h2 {
+    margin-bottom: 1.5rem;
+    
+}
+.direct-contact ul {
+    display: block;
+    line-height: 40px;
+}
 
 
 /* Footer */
