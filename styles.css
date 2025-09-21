@@ -103,16 +103,17 @@ nav {
   display: block;
   text-align: center;
 }
-.skilss-list li {
+.skills-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .skill-icon {
     width: 95px;
     height: 95px;
     border-radius: 9%;
-    border: 4px solid black;
+    border: 4px solid black;    
 }
 .about-container {
     display: flex;
