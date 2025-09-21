@@ -13,15 +13,16 @@ a:hover {
     text-decoration: underline;
 }
 .section-heading {
-    border: #9bd18958 3px solid;
-    background-color: #9bd18958;
+    background-color: #445e3c58;
     border-radius: 5px;
     padding: 1.5rem 0;
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 3rem; 
 }
-
+body {
+   background-color: #dbdbd3 ;
+}
 
 /* header */
 
@@ -30,8 +31,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 2rem;
-    background-color: #d3d3c4;
-    box-shadow: 5px 5px 19px rgba(30, 238, 89, 0.15);
+    background-color: #b8b8a8;
+    box-shadow: 5px 5px 19px rgba(0, 255, 72, 0.161);
 }
 
 .nav-links {
@@ -156,13 +157,19 @@ figcaption {
     margin: 3rem auto 0.5rem;;
 }
 
-.project-img-1, .project-img-2, .project-img-3 {
+.project-img{
   width: 65%;
   max-width: 1200px; 
   height: auto;
   display: block;
   margin: 0 auto;;
+  border-width: 700px;
+  border-radius: 10px;
 }
+#project-1 img{
+    border-radius: 2%;
+}
+
 
 .project {
     margin-top: 4rem;
