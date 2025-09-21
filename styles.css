@@ -21,7 +21,7 @@ a:hover {
     margin-top: 3rem; 
 }
 body {
-   background-color: #dbdbd3 ;
+   background-color: #dbdbd3;
 }
 
 /* header */
@@ -51,7 +51,13 @@ nav {
 .brand {
     text-align: center;
     margin-top: 0.5rem;
-    
+}
+.brand h1 {
+    display: inline-block;
+    background-color: #445e3c7d;
+    border-radius: 3px;
+    padding: 0.3rem 0.5rem;
+    width: rem
 }
 .brand p {
     margin-top: 5px;
