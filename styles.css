@@ -85,11 +85,9 @@ nav {
 }
 .skills-box {
     min-width: 230px;
-}
-.skills-box h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .skills-list span {
   display: block;
@@ -107,15 +105,14 @@ nav {
 }
 .about-container {
     display: flex;
-    gap: 2rem;
-    align-items: flex-start;
+    gap: 4rem;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 .worked-on {
-    text-align: center;
-    margin-top: 1rem;
-    border: none;
+    align-self: center;
+    margin-bottom: 3rem;;
 }
 .about-me-bio {
     line-height: 1.7;
