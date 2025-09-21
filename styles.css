@@ -18,7 +18,7 @@ a:hover {
 nav {
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: #d3d3c4;
     box-shadow: 5px 5px 19px rgba(30, 238, 89, 0.15);
 }
@@ -32,23 +32,26 @@ nav {
   flex: 1;
   text-align: center;       
   color: #333;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.1rem;
   padding: 1.5rem 0.5rem; 
 }
 .brand {
     text-align: center;
-    ;
+    margin-top: 0.5rem;
+    
 }
 .brand p {
     margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bio-summary {
   font-weight: 500;         
-  font-size: 1rem;          
-  color: #4c8639;         
+  font-size: 0.9rem;          
+  color: #39612c;         
   margin: 0.2rem 0 1rem 0;  
-  text-align: center;  
+  text-align: center;
 }
 
 
