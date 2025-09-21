@@ -123,8 +123,8 @@ nav {
     margin: 0 auto 1rem;;
 }
 
-.project-img-1, .project-img-2 {
-  width: 85%;
+.project-img-1, .project-img-2, .project-img-3 {
+  width: 65%;
   max-width: 1200px; /* or whatever the image natural or desired max size */
   height: auto;
   display: block;
