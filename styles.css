@@ -217,6 +217,11 @@ form {
     font-weight: 600;
     cursor: pointer;
 }
+#form-submit-button:hover {
+    background-color: #5fae45;
+    color: white;
+    transition: all 0.3s ease;
+}
 .direct-contact {
     text-align: center;
     margin-bottom: 3rem;
