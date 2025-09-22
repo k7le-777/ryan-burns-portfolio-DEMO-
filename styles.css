@@ -18,7 +18,7 @@ a:hover {
 .section-heading {
     background-color: #445e3c58;
     border-radius: 5px;
-    padding: 1.5rem 0;
+    padding: 7px;
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -42,7 +42,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   background-color: #b8b8a8;
   position: fixed;
   top: 0;
@@ -93,7 +93,7 @@ nav {
     width: 370px;
     height: 350px;
     border-radius: 9px;
-    margin-top: 3rem;
+    margin-top: 0.3rem;
     margin-left: 1px;
     border: 7px solid rgb(58, 65, 55);
     box-shadow: 7px 7px 5px 5px rgba(71, 73, 67, 0.367);
