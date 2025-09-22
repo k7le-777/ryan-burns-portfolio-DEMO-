@@ -29,6 +29,7 @@ body {
 }
 main {
     margin-top: 100px;
+    padding-top: 140px;;
 }
 header {
     width: 100%;
@@ -44,7 +45,6 @@ nav {
   background-color: #b8b8a8;
   position: fixed;
   top: 0;
-
   z-index: 1000;
   width: 100%;
   box-sizing: border-box;
