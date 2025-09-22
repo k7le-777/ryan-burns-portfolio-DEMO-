@@ -18,7 +18,7 @@ a:hover {
 .section-heading {
     background-color: #445e3c58;
     border-radius: 5px;
-    padding: 7px;
+    padding: px;
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -27,6 +27,8 @@ a:hover {
 }
 body {
     background-color: #dbdbd3;
+    margin: 0;
+    padding: 0;
 }
 main {
     margin-top: 100px;
@@ -248,7 +250,7 @@ form {
     justify-content: center;
     gap: 0.1rem;
     list-style: none;
-    margin-bottom: 1rem;
+    margin: 0;
     padding: 0;
     flex-wrap: wrap;
     
@@ -269,7 +271,9 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b8b8a8;   
+    background-color: #b8b8a8;
+    width: 100%; 
+
 }
 footer p{
     font-size: 1rem;
