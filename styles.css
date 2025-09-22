@@ -23,6 +23,7 @@ a:hover {
     margin-bottom: 3rem;
     margin-top: 3rem;
     border: 3px solid black;
+    width: 100%;
 }
 body {
    background-color: #dbdbd3;
@@ -245,14 +246,25 @@ form {
 .footer-links ul{
     display: flex;
     justify-content: center;
-    gap: 3.5rem;
+    gap: 1rem;
     list-style: none;
     margin-bottom: 1rem;
     font-weight: 600;
+    padding: 0;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #footer {
     margin: 0;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b8b8a8;
+    
 }
 footer p{
     font-size: 1rem;
