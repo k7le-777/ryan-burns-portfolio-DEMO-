@@ -1,4 +1,4 @@
-/* Universal */
+/* --Universal-- */
 
 * {
     text-decoration: none;
@@ -8,12 +8,10 @@
     font-family: "Courier New", sans-serif;
     font-size: 1.3rem;
 }
-
 a:hover {
     color: #56826c;
     text-decoration: underline;
     transition: all 0.3s ease;
-
 }
 .section-heading {
     background-color: #445e3c58;
@@ -38,7 +36,8 @@ header {
     width: 100%;
 }
 
-/* Header */
+
+/* --Header-- */
 
 nav {
     display: flex;
@@ -52,7 +51,6 @@ nav {
     width: 100%;
     box-sizing: border-box;
 }
-
 .nav-links {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +87,8 @@ nav {
     text-align: center;
 }
 
-/* About */
+
+/* --About-- */
 
 #Ryan-img {
     width: 370px;
@@ -99,7 +98,6 @@ nav {
     margin-left: 1px;
     border: 7px solid rgb(58, 65, 55);
     box-shadow: 7px 7px 5px 5px rgba(71, 73, 67, 0.367);
-
 }
 .skills-list {
     display: flex;
@@ -207,6 +205,7 @@ figcaption {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+
 /* Contact */
 form {
     display: flex;
@@ -235,7 +234,6 @@ form {
 }
 .direct-contact h2 {
     margin-bottom: 1.5rem;
-
 }
 .direct-contact ul {
     display: block;
@@ -253,7 +251,6 @@ form {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    
 }
 .footer-links a {
     font-size: 15px;
@@ -263,7 +260,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 #footer {
     margin: 0;
@@ -273,7 +269,6 @@ form {
     align-items: center;
     background-color: #b8b8a8;
     width: 100%; 
-
 }
 footer p{
     font-size: 1rem;
