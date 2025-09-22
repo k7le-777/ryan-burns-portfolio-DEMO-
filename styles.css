@@ -180,9 +180,9 @@ figcaption {
     font-weight: 500;
 }
 #projects p {
-    width: 45%;
+    width: 90%;
     text-align: center;
-    margin: 3rem auto 0.5rem;;
+    margin: 3rem auto 0.1rem;;
 }
 .project-img{
   width: 100%;
