@@ -1,4 +1,4 @@
-/* universal */
+/* Universal */
 
 * {
     text-decoration: none;
@@ -26,7 +26,7 @@ a:hover {
     width: 100%;
 }
 body {
-   background-color: #dbdbd3;
+    background-color: #dbdbd3;
 }
 main {
     margin-top: 100px;
@@ -36,19 +36,19 @@ header {
     width: 100%;
 }
 
-/* header */
+/* Header */
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  background-color: #b8b8a8;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #b8b8a8;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .nav-links {
@@ -59,10 +59,10 @@ nav {
     align-items: center;
 } 
 .nav-links a {
-  flex: none;
-  text-align: center;       
-  font-weight: 700;
-  padding: 0.2rem 0.2rem; 
+    flex: none;
+    text-align: center;       
+    font-weight: 700;
+    padding: 0.2rem 0.2rem; 
 }
 .brand {
     text-align: center;
@@ -80,14 +80,14 @@ nav {
 }
 
 .bio-summary {
-  font-weight: 500;         
-  font-size: 0.9rem;          
-  color: #39612c;         
-  margin: 0.2rem 0 1rem 0;  
-  text-align: center;
+    font-weight: 500;         
+    font-size: 0.9rem;          
+    color: #39612c;         
+    margin: 0.2rem 0 1rem 0;  
+    text-align: center;
 }
 
-/* about */
+/* About */
 
 #Ryan-img {
     width: 370px;
@@ -116,9 +116,9 @@ nav {
     flex-direction: column;
 }
 .skills-list span {
-  display: block;
-  text-align: center;
-  margin-top: 1rem;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
 }
 .skills-list li {
     display: flex;
@@ -185,13 +185,13 @@ figcaption {
     margin: 3rem auto 0.1rem;;
 }
 .project-img{
-  width: 100%;
-  max-width: 1200px; 
-  height: auto;
-  display: block;
-  margin: 0 auto;;
-  border-width: 700px;
-  border-radius: 10px;
+    width: 100%;
+    max-width: 1200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;;
+    border-width: 700px;
+    border-radius: 10px;
 }
 .project {
     background-color: #f8f8f5;
@@ -263,8 +263,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b8b8a8;
-    
+    background-color: #b8b8a8;   
 }
 footer p{
     font-size: 1rem;
