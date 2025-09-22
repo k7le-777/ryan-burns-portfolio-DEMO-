@@ -184,7 +184,7 @@ figcaption {
     margin: 3rem auto 0.5rem;;
 }
 .project-img{
-  width: 65%;
+  width: 100%;
   max-width: 1200px; 
   height: auto;
   display: block;
@@ -203,10 +203,6 @@ figcaption {
     margin-top: 4rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-figcaption {
-    font-style: italic;
-}
-
 
 /* Contact */
 form {
