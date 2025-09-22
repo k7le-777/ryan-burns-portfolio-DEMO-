@@ -193,7 +193,15 @@ figcaption {
   border-radius: 10px;
 }
 .project {
+    background-color: #f8f8f5;
+    border: #445e3c58 2px solid;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 70%;
+    max-width: 900px;
+    border-radius: 8px;
     margin-top: 4rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 figcaption {
     font-style: italic;
