@@ -5,7 +5,7 @@ This is my personal portfolio webpage built using **HTML** and **CSS**. The page
 
 ## Live Link
 Check out the live website here:
-[My Portfolio] (link)
+[My Portfolio] ()
 
 ## Features
 - **Semantic HTML structure**: `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`.
