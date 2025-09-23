@@ -1,7 +1,7 @@
 /* --Universal-- */
 
 * {
-    box-sizing: border-box; /* Added for better layout control */
+    box-sizing: border-box; 
     text-decoration: none;
     color: inherit;
     margin: 0;
