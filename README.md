@@ -24,4 +24,4 @@ Check out the live website here:
 ## Contact
 - Email: [kyleburns7.kb@gmail.com](mailto:kyleburns7.kb@gmail.com)  
 
-*This project is part of the Step9Up BootCamp curriculum and demonstrates fundamental web development skills.*
+*This project is part of the Step8Up BootCamp curriculum and demonstrates fundamental web development skills.*
