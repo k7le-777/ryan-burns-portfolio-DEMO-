@@ -1,7 +1,7 @@
 /* --Universal-- */
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Added for better layout control */
     text-decoration: none;
     color: inherit;
     margin: 0;
@@ -145,11 +145,6 @@ nav {
     margin: 0 1rem;
     padding: 0 1rem;
 }
-
-.about-container img, .about-container{
-    display: block;
-    margin: 1rem auto;
-} 
 
 .worked-on {
     align-self: center;
