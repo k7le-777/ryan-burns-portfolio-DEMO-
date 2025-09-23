@@ -1,6 +1,7 @@
 /* --Universal-- */
 
 * {
+    box-sizing: border-box;
     text-decoration: none;
     color: inherit;
     margin: 0;
@@ -8,34 +9,34 @@
     font-family: "Courier New", sans-serif;
     font-size: 1.3rem;
 }
+
 a:hover {
     color: #56826c;
     text-decoration: underline;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
+
 .section-heading {
     background-color: #445e3c58;
     border-radius: 5px;
-    padding: px;
     text-align: center;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin: 3rem 0;
     border: 3px solid black;
     width: 100%;
 }
+
 body {
     background-color: #dbdbd3;
-    margin: 0;
-    padding: 0;
 }
+
 main {
     margin-top: 100px;
-    padding-top: 99px;;
+    padding-top: 99px; 
 }
+
 header {
     width: 100%;
 }
-
 
 /* --Header-- */
 
@@ -44,41 +45,46 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
 }
+
 .brand, .nav-links {
     display: block;
-    margin-bottom: .5rem;
-} 
-.nav-links a {
-  display: inline-block;
-  margin: 0 .5rem;
-  font-weight: 700;
-  padding: .2rem;
+    margin-bottom: 0.5rem;
 }
+
+.nav-links a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-weight: 700;
+    padding: 0.2rem;
+}
+
 .brand {
     text-align: center;
     margin-top: 0.5rem;
 }
+
 .brand h1 {
     display: inline-block;
     background-color: #445e3c7d;
     border-radius: 3px;
     padding: 0.2rem 0.5rem;
 }
+
 .brand p {
     margin-top: 9px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .bio-summary {
-    font-weight: 500;         
-    font-size: 0.9rem;          
-    color: #39612c;         
-    margin: 0.2rem 0 1rem 0;  
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #39612c;
+    margin: 0.2rem 0 1rem 0;
     text-align: center;
 }
-
 
 /* --About-- */
 
@@ -91,39 +97,45 @@ nav {
     border: 7px solid rgb(58, 65, 55);
     box-shadow: 7px 7px 5px 5px rgba(71, 73, 67, 0.367);
 }
+
 .skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     list-style: none;
     box-shadow: #3a7b2458 4px 4px 15px 15px;
-    border: #50953a 3px transparent;
+    border: 3px solid #50953a; 
     padding: 1rem;
     border-radius: 10px;
 }
+
 .skills-box {
     min-width: 230px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .skills-list span {
     display: block;
     text-align: center;
     margin-top: 1rem;
 }
+
 .skills-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .skill-icon {
     width: 95px;
     height: 95px;
     border-radius: 9%;
-    border: 4px solid black;    
+    border: 4px solid black;
 }
+
 .about-container {
     display: flex;
     gap: 3rem;
@@ -133,32 +145,36 @@ nav {
     margin: 0 1rem;
     padding: 0 1rem;
 }
-.about-container img, .about-container .skilss-box {
+
+.about-container img, .about-container{
     display: block;
-    margin: 1rem auto; 
-}
+    margin: 1rem auto;
+} 
+
 .worked-on {
     align-self: center;
-    margin-bottom: 3rem;;
+    margin-bottom: 3rem;
 }
+
 .about-me-bio {
     line-height: 1.7;
     margin-bottom: 1.5rem;
     padding: 1rem 3rem;
 }
 
-
 /* Projects */
 
-#projects h3, #projects p{
+#projects h3, #projects p {
     text-align: center;
     margin-bottom: 1rem;
     line-height: 30px;
 }
+
 .view-project {
     width: 100%;
     text-align: center;
 }
+
 .view-project a {
     display: inline-block;
     background-color: #84b73061;
@@ -167,51 +183,53 @@ nav {
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
+
 figcaption {
-    display: block; 
-    text-align: center;    
-    margin: 0 auto 1rem;   
+    display: block;
+    text-align: center;
+    margin: 0 auto 1rem;
     padding: 0.5rem 1rem;
     color: #333;
     font-weight: 500;
 }
+
 #projects p {
     width: 90%;
     text-align: center;
-    margin: 3rem auto 0.1rem;;
+    margin: 3rem auto 0.1rem;
 }
-.project-img{
+
+.project-img {
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1200px;
     height: auto;
     display: block;
-    margin: 0 auto;;
-    border-width: 700px;
+    margin: 0 auto;
     border-radius: 10px;
 }
+
 .project {
     background-color: #f8f8f5;
-    border: #445e3c58 2px solid;
+    border: 2px solid #445e3c58;
     padding: 2rem;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem;
     width: 70%;
     max-width: 900px;
     border-radius: 8px;
-    margin-top: 4rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-
 /* Contact */
+
 #contact-form {
     display: block;
     width: 100%;
     max-width: 500px;
-    margin-bottom: 1rem;
     margin: 0 auto 3rem;
-    text-align: space-around;
 }
-#contact-form input, #contact-form textarea {
+
+#contact-form input,
+#contact-form textarea {
     display: block;
     width: 100%;
     padding: 0.5rem;
@@ -220,6 +238,7 @@ figcaption {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 #form-submit-button {
     width: 170px;
     height: 70px;
@@ -229,27 +248,30 @@ figcaption {
     font-weight: 600;
     cursor: pointer;
 }
+
 #form-submit-button:hover {
     background-color: #5fae45;
     color: white;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .direct-contact {
     text-align: center;
     margin-bottom: 3rem;
 }
+
 .direct-contact h2 {
     margin-bottom: 1.5rem;
 }
+
 .direct-contact ul {
     display: block;
     line-height: 40px;
 }
 
-
 /* Footer */
 
-.footer-links ul{
+.footer-links ul {
     display: flex;
     justify-content: center;
     gap: 0.1rem;
@@ -258,15 +280,18 @@ figcaption {
     padding: 0;
     flex-wrap: wrap;
 }
+
 .footer-links a {
     font-size: 15px;
     font-weight: 700;
 }
+
 .footer-links {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 #footer {
     margin: 0;
     padding: 0.7rem 0;
@@ -274,8 +299,9 @@ figcaption {
     flex-direction: column;
     align-items: center;
     background-color: #b8b8a8;
-    width: 100%; 
+    width: 100%;
 }
-footer p{
+
+footer p {
     font-size: 1rem;
 }

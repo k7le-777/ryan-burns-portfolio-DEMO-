@@ -9,35 +9,25 @@
 <body>
 
     <header>
-
         <nav>
-        <!--left side-->
             <div class="brand">
-                <h1> Ryan Burns </h1>
+                <h1>Ryan Burns</h1>
                 <p class="bio-summary">
                     Web Developer | Problem-Solver | Innovative
                 </p>
             </div>
-            
-        <!--right side-->
             <div class="nav-links">
-                <a href="#about">[About]</a>
-                <a href="#projects">[Projects]</a>
-                <a href="#contact">[Contact]</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
-
     </header>
 
     <main>
-
         <section id="about">
-
             <div class="about-container">
-                <!-- *large screen output* - Left side: prof img-->
-                <img src="img/Ryan.jpeg" alt="prof picture of Ryan" id="Ryan-img">
-
-                <!-- ** Right side: skill set box-->
+                <img src="img/Ryan.jpeg" alt="Profile picture of Ryan" id="Ryan-img">
                 <aside class="skills-box">
                     <h2 class="worked-on">Skills</h2>
                     <ul class="skills-list">
@@ -64,108 +54,94 @@
                     </ul>
                 </aside>
             </div>
-
-            <h2 class="section-heading">[ About Me ]</h2>
-
-                <p class="about-me-bio">
-                    Self-taught web developer driven by curiosity and problem-solving. After exploring 
-                    multiple career paths, I discovered coding through The Odin Project and realized I 
-                    thrive building projects that challenge me to think creatively. Skilled in HTML, CSS, 
-                    and JavaScript, I enjoy creating responsive, interactive web experiences and continuously 
-                    learning new technologies to grow as a developer.
-                </p>
-
+            <h2 class="section-heading">About Me</h2>
+            <p class="about-me-bio">
+                Self-taught web developer driven by curiosity and problem-solving. After exploring 
+                multiple career paths, I discovered coding through The Odin Project and realized I 
+                thrive building projects that challenge me to think creatively. Skilled in HTML, CSS, 
+                and JavaScript, I enjoy creating responsive, interactive web experiences and continuously 
+                learning new technologies to grow as a developer.
+            </p>
         </section>
 
         <section id="projects">
-
-            <h2 class="section-heading">[ Projects ]</h2>
-                <article id="project-1" class="project">
-                    <h3 id="mood">Mood Palette Generator</h3>
-                    <p>A playful web tool that generates color palettes based on the user’s chosen emojis.</p>
-                    <p class="view-project">View Project:
-                        <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
-                    </p>
-                    <figure>    
-                        <img src="img/mood-palette.png" alt="mood palette image" class="project-img">
-                        <figcaption>Color palette + mood emoji = mood palette</figcaption>
-                    </figure>
-                </article>
-                <article id="project-2" class="project">
-                    <h3 id="plant-care">Virtual Plant Care Dashboard</h3>
-                    <p>A responsive dashboard concept for tracking plant care schedules and reminders.</p>
-                    <p class="view-project">View Project:
-                        <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
-                    </p>
-                    <figure>
-                        <img src="img/plant-dashboard.png" alt="plant dashboard image" class="project-img">
-                        <figcaption>Plant care dashboard concept</figcaption>
-                    </figure>
-                </article>
-                <article id="project-3" class="project">
-                    <h3 id="step-tracker">Virtual Tree Step Tracker</h3>
-                    <p>A web app where users log daily steps. Each milestone contributes to planting a virtual 
-                        tree. As they walk more, the tree grows visually, giving immediate feedback and motivation.</p>
-                    <p class="view-project">View Project:
-                        <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
-                    </p>
-                    <figure>
-                        <img src="img/growing-plant.jpg" alt="growing plant image" class="project-img">
-                        <figcaption>Tree-step tracker concept</figcaption>
-                    </figure>
-                </article>
-
+            <h2 class="section-heading">Projects</h2>
+            <article id="project-1" class="project">
+                <h3>Mood Palette Generator</h3>
+                <p>A playful web tool that generates color palettes based on the user’s chosen emojis.</p>
+                <p class="view-project">View Project:
+                    <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
+                </p>
+                <figure>    
+                    <img src="img/mood-palette.png" alt="Mood palette screenshot" class="project-img">
+                    <figcaption>Color palette + mood emoji = mood palette</figcaption>
+                </figure>
+            </article>
+            <article id="project-2" class="project">
+                <h3>Virtual Plant Care Dashboard</h3>
+                <p>A responsive dashboard concept for tracking plant care schedules and reminders.</p>
+                <p class="view-project">View Project:
+                    <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
+                </p>
+                <figure>
+                    <img src="img/plant-dashboard.png" alt="Plant dashboard screenshot" class="project-img">
+                    <figcaption>Plant care dashboard concept</figcaption>
+                </figure>
+            </article>
+            <article id="project-3" class="project">
+                <h3>Virtual Tree Step Tracker</h3>
+                <p>A web app where users log daily steps. Each milestone contributes to planting a virtual 
+                    tree. As they walk more, the tree grows visually, giving immediate feedback and motivation.</p>
+                <p class="view-project">View Project:
+                    <a href="https://github.com/k7le-777/personal-portfolio">Github Pages</a>
+                </p>
+                <figure>
+                    <img src="img/growing-plant.jpg" alt="Growing plant screenshot" class="project-img">
+                    <figcaption>Tree-step tracker concept</figcaption>
+                </figure>
+            </article>
         </section>
 
         <section id="contact">
-
-            <h2 class="section-heading">[ Contact Me ]</h2>
-            <!--Form subsection-->
+            <h2 class="section-heading">Contact Me</h2>
             <form action="#" method="post" id="contact-form">  
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Full Name">
+                <input type="text" id="name" name="name" placeholder="Full Name">
                 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="user@example.com">
+                <input type="email" id="email" name="email" placeholder="user@example.com">
                 
-                <label for="phone">Number</label>
-                <input type="tel"  id="tel" placeholder="Phone ">
+                <label for="tel">Phone</label>
+                <input type="tel" id="tel" name="tel" placeholder="Phone">
                 
                 <label for="message">Message</label>
-                <textarea id="message" placeholder="Write your message here"></textarea>
+                <textarea id="message" name="message" placeholder="Write your message here"></textarea>
                 <button id="form-submit-button" type="submit">Send</button>
             </form>
-
-            <!--Direct contact list subsection-->
             <div class="direct-contact">
-                <h2>- or Reach Me Directly -</h2>
+                <h2>Or Reach Me Directly</h2>
                 <ul>
                     <li>
                         Email: <a href="mailto:kyleburns7.kb@gmail.com">kyleburns7.kb@gmail.com</a> 
                     </li>
                     <li>
-                        Phone: <a href="tel:0780098080">+44 79878988789</a>
+                        Phone: <a href="tel:+4479878988789">+44 79878988789</a>
                     </li>
                 </ul>
             </div>
-
         </section>
-
     </main>
 
     <footer id="footer">
-
         <div class="footer-links">
-            <ul >
-                <li><a href="#about">[About]</a></li>
-                <li><a href="#projects">[Projects]</a></li>
-                <li><a href="#contact">[Contact]</a></li>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <p>©2025 Ryan Burns</p>
-        
     </footer>
 
 </body>
-
 </html>
